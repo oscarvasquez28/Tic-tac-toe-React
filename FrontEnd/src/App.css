@@ -1,3 +1,5 @@
+
+
 .Square {
   width: 100px;
   height: 100px;
@@ -9,8 +11,13 @@
   font-weight: bold;
 }
 
+.status{
+  color: white;
+}
+
 .Square:hover{
   cursor: pointer;
+  background: rgb(215, 215, 215);
 }
 
 .Board {

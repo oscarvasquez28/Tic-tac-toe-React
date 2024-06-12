@@ -90,7 +90,7 @@ class Board extends Component{
 
         return(
             <div className='Board'>
-                <h1>{status}</h1>
+                <h1 className='status'>{status}</h1>
                 <div className='Row'>
                 <Square value = {squares[0]} onClick={this.handleClick(0)}/>
                 <Square value = {squares[1]} onClick={this.handleClick(1)}/>
