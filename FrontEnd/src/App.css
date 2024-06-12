@@ -9,6 +9,7 @@
   font-size: 2rem;
   border: 1px solid #d2d6dc;
   font-weight: bold;
+
 }
 
 .status{
@@ -41,4 +42,10 @@
   border-radius: 0.5rem;
   background-color: #fff;
   cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+
+.Reset:hover{
+  transform: scale(1.02);
+  background: rgb(215, 215, 215);
 }
